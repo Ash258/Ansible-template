@@ -1,0 +1,9 @@
+{
+    "editor.matchBrackets": "always",
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.highlightActiveIndentation": "always",
+    "editor.guides.bracketPairsHorizontal": true
+}

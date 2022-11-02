@@ -1,0 +1,5 @@
+[core]
+  autocrlf = true
+  safecrlf = true
+[pull]
+  rebase = false

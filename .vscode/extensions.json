@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "DavidAnson.vscode-markdownlint",
+        "dhoeric.ansible-vault",
+        "eamodio.gitlens",
+        "EditorConfig.EditorConfig",
+        "Gruntfuggly.todo-tree",
+        "k--kato.intellij-idea-keybindings",
+        "redhat.ansible",
+        "redhat.vscode-yaml",
+        "usernamehw.errorlens",
+        "yzhang.markdown-all-in-one",
+    ]
+}

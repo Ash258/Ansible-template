@@ -1,0 +1,2 @@
+*.sh        text eol=lf
+*.y*ml      text eol=lf

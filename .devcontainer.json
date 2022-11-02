@@ -1,0 +1,22 @@
+{
+    "name": "Ansible deployment container",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "remoteUser": "vscode",
+    "postAttachCommand": "test -f requirements.txt && pip install -r requirements.txt; test -f requirements.yml && ansible-galaxy install -r requirements.yml",
+    "extensions": [
+        "DavidAnson.vscode-markdownlint",
+        "dhoeric.ansible-vault",
+        "eamodio.gitlens",
+        "EditorConfig.EditorConfig",
+        "Gruntfuggly.todo-tree",
+        "k--kato.intellij-idea-keybindings",
+        "rangav.vscode-thunder-client",
+        "redhat.ansible",
+        "redhat.vscode-yaml",
+        "usernamehw.errorlens",
+        "yzhang.markdown-all-in-one"
+    ],
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {}
+    }
+}
